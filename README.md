@@ -1,33 +1,57 @@
-# Exploratory Data Analysis on Mental Health Dataset
+# Exploratory Data Analysis on Mental Health Prevalence
 
-## Objective
-Perform exploratory data analysis (EDA) on a real-world mental health dataset to identify trends, patterns, and insights related to the prevalence of mental illnesses across countries and years.
+## 📊 Project Overview
+This repository contains an exploratory data analysis (EDA) of global mental health prevalence using the `mental-illnesses-prevalence.csv` dataset from Kaggle.  
+The goal is to identify trends and patterns across different mental health conditions over time and across countries.
 
-## Dataset
-This project uses the **Mental Health dataset from Kaggle**, focusing on the file:
+## 🧠 Objectives
+- Explore how the prevalence of mental illnesses has changed over time.
+- Compare trends of different mental health conditions (e.g., depression vs anxiety).
+- Identify countries with high prevalence of certain mental disorders.
+- Understand relationships between different disorders.
+
+## 🗂 Dataset
+The dataset used:
 - `mental-illnesses-prevalence.csv`
+It contains country‑level data on the share of the population affected by various mental health disorders over multiple years.
 
-The dataset provides country-level prevalence statistics for different mental health conditions over time.
+Source: Kaggle mental health dataset.
 
-## Tools
+## 🛠️ Tools & Technologies
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
-## Key Steps
-- Data loading and inspection
-- Data cleaning and preprocessing
-- Summary statistics
-- Trend analysis over time
-- Data visualization across countries and years
+## 📌 Notebook Content
+The Jupyter notebook includes:
+1. Data cleaning and preprocessing  
+2. Trend visualization for mental health conditions  
+3. Comparison plots (e.g., Depression vs Anxiety)  
+4. Bar charts for top countries  
+5. Histograms showing distribution  
+6. Correlation heatmap between disorders  
+7. Insights and interpretation of results
 
-## Missing Values
-The dataset contains missing values only in the `Code` column, which represents country codes.
-Since this column is not required for analysis, it was removed. All remaining columns contain
-complete data.
+## 📈 Visualizations & Insights
+Each visualization is accompanied by a short explanation highlighting:
+- Key patterns in the data  
+- Observed trends over time  
+- Important insights that relate to mental health prevalence
 
-## Outcome
-Identified key patterns in mental illness prevalence, observed variations across countries, and analyzed temporal trends that highlight changes in mental health prevalence over time.
+## 📝 Key Findings
+- Global depression prevalence has shown notable trends over time.
+- Depression and anxiety often follow similar patterns.
+- Some countries have higher prevalence than others, indicating possible socio‑economic or healthcare influences.
+- Strong positive correlation between certain disorders, especially depression and anxiety.
 
+## 🧾 How to Run
+1. Clone the repository  
+2. Open the Jupyter notebook `EDA.ipynb`  
+3. Run all cells from top to bottom  
+4. Interpret the results and visuals  
+
+```bash
+git clone https://github.com/soundarya-ds/exploratory-data-analysis.git
